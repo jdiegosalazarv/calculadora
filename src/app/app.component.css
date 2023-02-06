@@ -1,0 +1,26 @@
+
+/* .component{
+    float: left;
+    min-width: 300px;
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+} */
+
+.component{
+    float: left;
+    padding: 1%;
+    margin: 1%;
+    width: 45%;
+    border: 1px solid grey;
+    border-radius: 20px;
+    box-shadow: 2px;
+}
+
+@media screen and (max-width: 720px) {
+    .component{
+        float: left;
+        margin: 5%;
+        width: 80%;
+    }
+}

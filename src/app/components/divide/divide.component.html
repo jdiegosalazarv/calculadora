@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>{{tittle}}</h1>
+    <form>
+        <div class="mb-3">
+            <label class="form-label" for="valor1">Valor 1</label>
+            <input class="form-control" [(ngModel)]="numero1" type="number" name="valor1" id="valor1" placeholder="Número 1">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="valor2">Valor 2</label>
+            <input class="form-control" [(ngModel)]="numero2" type="number" name="valor2" id="valor2" placeholder="Número 1">
+        </div>
+        <div class="mb-3">
+            <label class="form-label" for="result">Resultado</label>
+            <input class="form-control" [(ngModel)]="resultado" type="number" name="result" id="result" readonly placeholder="Resultado">
+        </div>
+        <div class="buttons">
+            <button class="btn btn-success" type="button" (click)="divide()">Calcular</button>
+            <button class="btn btn-warning" type="reset">Limpiar</button>
+        </div>
+    </form>
+</div>
